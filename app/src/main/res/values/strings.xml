@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GameProject</string>
+    <string name="footer_text">Developed by SD2M</string>
+    <string name="login_text">Login</string>
+    <string name="welcome_text">Welcome!</string>
+    <string name="information_text">With our application, it\'ll be much easier and more fun to keep track of your games!</string>
+    <string name="email_text">E-mail</string>
+    <string name="password_text">Password</string>
+    <string name="remember_text">Remember me</string>
+    <string name="create_account">Create an Account</string>
+    <string name="new_account">New Account</string>
+    <string name="pick_photo">Let\'s pick a photo?</string>
+    <string name="authentication_data">Authentication Data</string>
+    <string name="personal_data">Personal Data</string>
+</resources>

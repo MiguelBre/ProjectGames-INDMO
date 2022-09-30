@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.448" />
+        <entry key="app/src/main/res/drawable/ic_baseline_email_icon_24.xml" value="0.448" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_icon_24.xml" value="0.448" />
+        <entry key="app/src/main/res/drawable/ic_baseline_photo_camera_icon_24.xml" value="0.448" />
+        <entry key="app/src/main/res/drawable/ic_button_background.xml" value="0.448" />
+        <entry key="app/src/main/res/drawable/ic_edit_background.xml" value="0.448" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.448" />
+        <entry key="app/src/main/res/drawable/ic_launcher_wavestop_background.xml" value="0.448" />
+        <entry key="app/src/main/res/drawable/ic_launcher_wavestop_foreground.xml" value="0.448" />
+        <entry key="app/src/main/res/drawable/ic_wave_bottom.xml" value="0.448" />
+        <entry key="app/src/main/res/drawable/ic_wave_top.xml" value="0.448" />
+        <entry key="app/src/main/res/drawable/waves_top.xml" value="0.2655" />
+        <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.5640625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_new_account.xml" value="0.48867753623188404" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.448" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
