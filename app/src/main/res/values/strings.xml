@@ -12,4 +12,19 @@
     <string name="pick_photo">Let\'s pick a photo?</string>
     <string name="authentication_data">Authentication Data</string>
     <string name="personal_data">Personal Data</string>
+    <string name="name_text">What\'s your name?</string>
+    <string name="city_text">What\'s your city?</string>
+    <string name="birth_text">Birth Date</string>
+    <string name="gamer_level">What\'s your gamer level?</string>
+    <string name="level">Casual</string>
+    <string name="favorite_console">What\'s your favorite console?</string>
+    <string-array name="console_options">
+        <item>Playstation</item>
+        <item>Xbox</item>
+        <item>Nintendo</item>
+        <item>PC</item>
+    </string-array>
+    <string name="gender">What\'s your gender?</string>
+    <string name="masculine">Masculine</string>
+    <string name="feminine">Feminine</string>
 </resources>

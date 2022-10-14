@@ -16,10 +16,10 @@
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="15dp"
         android:background="@color/pretty_blue"
-        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintBottom_toBottomOf="@+id/text_view_welcome"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toTopOf="@+id/textView4">
+        app:layout_constraintStart_toEndOf="@+id/text_view_welcome"
+        app:layout_constraintTop_toTopOf="@+id/text_view_welcome">
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -74,7 +74,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/text_view_welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -95,10 +95,10 @@
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="15dp"
         android:background="@color/pretty_blue"
-        app:layout_constraintBottom_toBottomOf="@+id/textView4"
-        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintBottom_toBottomOf="@+id/text_view_welcome"
+        app:layout_constraintEnd_toStartOf="@+id/text_view_welcome"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView4">
+        app:layout_constraintTop_toTopOf="@+id/text_view_welcome">
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -112,7 +112,7 @@
         app:layout_constraintEnd_toEndOf="@+id/constraintLayout2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/constraintLayout3"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_welcome"
         app:layout_constraintVertical_chainStyle="spread" />
 
     <EditText
@@ -158,12 +158,12 @@
         android:buttonTint="@color/lighter_pretty_blue"
         android:text="@string/remember_text"
         android:textColor="#6F000000"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/button_login"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_login"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:background="@drawable/ic_button_background"
@@ -171,19 +171,19 @@
         android:text="@string/login_text"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/text_signup"
         app:layout_constraintEnd_toEndOf="@+id/checkBox"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/text_signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/create_account"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout4"
-        app:layout_constraintEnd_toEndOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintEnd_toEndOf="@+id/button_login"
+        app:layout_constraintTop_toBottomOf="@+id/button_login" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
