@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="@color/weird_white"
-    tools:context=".NewAccountActivity">
+    tools:context=".ui.NewAccountActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout4"
@@ -182,6 +182,7 @@
                     android:hint="@string/name_text"
                     android:inputType="textPersonName"
                     app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword2"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/textView8"
                     app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
