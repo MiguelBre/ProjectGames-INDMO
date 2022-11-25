@@ -12,6 +12,7 @@
         <entry key="app/src/main/res/drawable/ic_baseline_photo_camera_icon_24.xml" value="0.448" />
         <entry key="app/src/main/res/drawable/ic_button_background.xml" value="0.448" />
         <entry key="app/src/main/res/drawable/ic_edit_background.xml" value="0.448" />
+        <entry key="app/src/main/res/drawable/ic_joystick_1.xml" value="0.557" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.448" />
         <entry key="app/src/main/res/drawable/ic_launcher_wavestop_background.xml" value="0.448" />
         <entry key="app/src/main/res/drawable/ic_launcher_wavestop_foreground.xml" value="0.448" />
@@ -22,9 +23,10 @@
         <entry key="app/src/main/res/drawable/ic_wave_top.xml" value="0.448" />
         <entry key="app/src/main/res/drawable/waves_top.xml" value="0.2655" />
         <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.5640625" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.5125" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.45" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.5" />
-        <entry key="app/src/main/res/layout/activity_new_account.xml" value="0.48867753623188404" />
+        <entry key="app/src/main/res/layout/activity_new_account.xml" value="0.36666666666666664" />
+        <entry key="app/src/main/res/layout/gameholder_layout.xml" value="0.3953125" />
         <entry key="app/src/main/res/menu/menu_new_user.xml" value="0.43802083333333336" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.448" />
       </map>

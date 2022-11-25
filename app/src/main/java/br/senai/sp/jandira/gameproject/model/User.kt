@@ -16,7 +16,7 @@ class User {
     var password: String = "";
     var nome: String = "";
     var cidade: String = "";
-    var dataNascimento: LocalDate? = null;
+    var dataNascimento = "";
     var sexo: Char = 'I';
     var nivel = NiveisEnum.INICIANTE;
     var console: Console? = null;

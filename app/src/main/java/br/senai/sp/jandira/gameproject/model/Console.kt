@@ -13,7 +13,7 @@ class Console {
     var nome = "";
     var fabricante = "";
     var descricao = "";
-    var foto: Bitmap? = null;
+//    var foto: Bitmap? = null;
     var anoLancamento = 0;
 
 }
