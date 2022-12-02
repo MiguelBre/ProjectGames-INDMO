@@ -40,11 +40,24 @@ class NewAccountActivity : AppCompatActivity() {
         sliderGamerLevel = binding.sliderGamerLevel
         spinnerConsole = binding.spinnerConsole
 
-        textGamerLevel.setText(getLevel());
+        sliderGamerLevel.addOnChangeListener { slider, value, fromUser ->
+            binding.textGamerLevel.setText(getLevel(value).toString())
+        }
+
+//        textGamerLevel.setText(getLevel());
 
     }
 
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+
+        val inflater = menuInflater
+        inflater.inflate(R.menu.menu_new_user, menu)
+
+        return true
+    }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        Toast.makeText(this, "Teste", Toast.LENGTH_SHORT).show()
 
         if(item.itemId == R.id.menu_save){
             saveUser()
@@ -60,39 +73,40 @@ class NewAccountActivity : AppCompatActivity() {
 
     private fun saveUser() {
         val user = User()
-        user.id = 1;
         user.email = editNewName.text.toString();
         user.password = editNewPass.text.toString();
         user.nome = editNewName.text.toString();
         user.cidade = editNewCity.text.toString();
         user.dataNascimento = editBirthDay.text.toString();
-//        user.nivel = getLevel();
+        user.nivel = getLevel(sliderGamerLevel.value);
 //        user.console = spinnerConsole.toString();
+        user.sexo = getSexo();
     }
 
-    private fun getLevel(): String {
+    private fun getSexo(): Char {
 
-        val nivel = sliderGamerLevel.value;
-
-        if (nivel in 1.0..10.0){
-            return "INICIANTE"
-        } else if(nivel in 11.0..20.0){
-            return "BASICO"
-        } else if(nivel in 21.0..30.0){
-            return "AVANCADO"
+        if (binding.radioButtonMasc.isChecked){
+            Toast.makeText(this, "Clicou em masculino", Toast.LENGTH_SHORT).show()
+            return 'M'
+        } else if (binding.radioButtonFemin.isChecked){
+            Toast.makeText(this, "Clicou em feminino", Toast.LENGTH_SHORT).show()
+            return 'F'
         } else {
-            return "CASUAL"
+            return 'N'
         }
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+    private fun getLevel(nivel: Float): NiveisEnum {
 
-        val inflater = menuInflater
-        inflater.inflate(R.menu.menu_new_user, menu)
-
-        return true
+        if (nivel in 1.0..10.0){
+            return NiveisEnum.INICIANTE
+        } else if(nivel in 11.0..20.0){
+            return NiveisEnum.BASICO
+        } else if(nivel in 21.0..30.0){
+            return NiveisEnum.AVANCADO
+        } else {
+            return NiveisEnum.CASUAL
+        }
     }
-
-
 
 }

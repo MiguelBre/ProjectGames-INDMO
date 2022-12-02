@@ -11,7 +11,7 @@ class User {
     @PrimaryKey(autoGenerate = true)
     var id: Int = 0;
 
-    var foto: Drawable? = null;
+    var foto: String? = null;
     var email: String = "";
     var password: String = "";
     var nome: String = "";
@@ -19,6 +19,6 @@ class User {
     var dataNascimento = "";
     var sexo: Char = 'I';
     var nivel = NiveisEnum.INICIANTE;
-    var console: Console? = null;
+//    var console: Console? = null;
 
 }
